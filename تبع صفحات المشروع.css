@@ -1,0 +1,426 @@
+ .header{
+   display:flex;
+   align-items: center;
+   padding-left: 10px;
+   padding-right:0px;
+   margin-top: 10px;
+   border-radius:30px; 
+   width: 1250px;
+   height: 130px;
+   text-indent: 10px;
+   text-align:left; 
+   text-shadow:-4px 6px 4px rgb(253, 38, 38) ;
+ }
+ .header1{
+
+ position: relative;
+   align-items: center;
+   padding-left: 10px;
+   padding-right:0px;
+   margin-top: 10px;
+   border-radius:30px; 
+   width: 1250px;
+   height: 110px;
+   text-indent: 10px;
+   text-align:left; 
+   box-shadow: -4px 6px 4px;
+ }
+ 
+ .header #hh1:hover{
+   /*width:20px;*/
+   background-color: rgb(80, 74, 6);
+   margin-top: 30px;
+   font-weight: 35px;
+   text-align: right;
+  
+ }
+ .headernew{
+   /*display: block;
+      width:25%;
+      margin-top:20px;
+      padding-left:10px;
+      margin-left: 200px;
+   border: 1px solid rgb(115, 27, 27) ;
+   border-bottom: dashed;
+   background-color: rgb(134, 126, 103);
+   text-align:right;
+   border-radius:30px;*/
+   position: absolute;
+   width:15%;
+   margin-top:25px;
+   padding-left:2px;
+   margin-left: 70em;
+border: 3px solid rgb(12, 138, 180) ;
+border-bottom: dashed;
+background-color: rgb(177, 14, 90);
+border-radius:30px;
+text-decoration:none;
+font-size:12px;
+box-shadow: -4px 6px 4px;
+
+}
+
+ .headernew1{
+   
+   position: absolute;
+   width:13%;
+   margin-top:25px;
+   padding-left:3px;
+   margin-left:55em;
+   float:left;
+border: 3px solid rgb(95, 95, 6) ;
+border-bottom: dashed;
+background-color: rgb(35, 110, 58);
+border-radius:30px;
+text-decoration:none;
+text-align: center;
+font-size:12px;
+text-shadow: -4px 6px 4px;
+box-shadow: -4px 6px 4px;
+   
+ }
+    .header .headernew1:hover{
+      background:linear-gradient( rgb(3, 76, 148),rgb(38, 38, 88)) ;
+      margin-top:0px;
+      font-weight:0px;
+      text-align:right;
+      
+       }
+
+ .header .headernew:hover{
+   background:linear-gradient( rgb(203, 211, 219),rgb(11, 11, 143)) ;
+ }
+ 
+ 
+ .left{
+   position: absolute;
+left: 60px;
+margin-top: 50px;
+   width: 200px;
+   height: 420px;
+   padding:10px;
+border: 1px solid rgb(150, 13, 13) ;
+background-color: rgb(49, 53, 37);
+text-align: center;
+text-shadow: -4px 6px 4px;
+box-shadow: -4px 6px 4px;
+} 
+/*
+.left .left1{
+   position: absolute;
+   left: 40px;
+   margin-top:6px;
+      width: 120px;
+      height: 100px;
+      padding:10px;
+      border: 2px solid rgb(115, 27, 27);
+   background-color: rgb(89, 99, 69);
+ }
+   */
+ .left .left2{
+   display: flex;
+   margin-left: 15px;
+  margin-top: 130px;
+   width: 150px;
+      height:230px;
+      padding:10px;
+      border: 1px solid rgb(29, 3, 3);
+  background-color: rgb(117, 170, 11);
+   text-align:right;
+   overflow: scroll;
+   text-shadow: -4px 6px 4px;
+   box-shadow: -4px 6px 4px;
+ }
+
+.center{
+    position: relative;
+    margin-top: 50px;
+    width: 200px;
+    height: 420px;
+    float:left;
+    margin-left: 340px;
+ border: 1px solid rgb(119, 7, 7) ;
+ background-color: rgb(124, 9, 9);
+ text-align:center;
+ padding:10px;
+ text-shadow: -4px 6px 4px;
+ box-shadow: -4px 6px 4px;
+ } 
+ 
+ .center .center2{
+   display: flex;
+   margin-left: 15px;
+  margin-top: 140px;
+   width: 150px;
+      height: 200px;
+      padding:10px;
+      border: 2px solid rgb(116, 10, 10);
+   background-color: rgb(23, 166, 202);
+   overflow: scroll;
+   text-shadow: -4px 6px 4px;
+   box-shadow: -4px 6px 4px;
+ 
+ }
+/* .center1{
+   position: absolute;
+
+margin-top:10px;
+   width: 200px;
+   height: 350px;
+   padding:10px;
+border: 1px solid red ;
+background-color: yellowgreen;
+text-align:center;
+margin-left: 530px;
+} 
+*/
+.right{
+   position: absolute;
+   margin-top: 50px;    
+     width: 200px;
+      height: 420px;
+      padding:10px;
+   border: 1px solid rgb(30, 211, 157) ;
+  background-color: rgb(98, 120, 63);
+   text-align:center;
+   margin-left: 600px;
+   text-shadow: -4px 6px 4px;
+   box-shadow: -4px 6px 4px;
+}
+ /* 
+ .right .right2{
+   position: absolute;
+   left: 35px;
+   margin-top:6px;
+      width: 120px;
+      height: 100px;
+      padding:10px;
+      border: 2px solid rgb(115, 27, 27);
+   background-color: rgb(89, 99, 69);
+ 
+ }*/
+
+ .right .right3{
+   display: flex;
+   margin-left: 10px;
+  margin-top: 140px;
+   width: 150px;
+      height: 200px;
+      padding:10px;
+      border: 2px solid rgb(15, 158, 139);
+   background-color: rgba(94, 138, 6, 0.945);
+   overflow: scroll;
+   text-shadow: -4px 6px 4px;
+   box-shadow: -4px 6px 4px;
+ }
+ .right1{
+   position: absolute;
+   margin-top: 50px;
+         width: 200px;
+      height: 420px;
+      padding:10px;
+   border: 1px solid red ;
+  background-color: rgb(24, 100, 110);
+   text-align:center;
+   margin-left: 880px;
+   display:right;
+   text-shadow: -4px 6px 4px;
+   box-shadow: -4px 6px 4px;
+ }
+ /* 
+ .right1 .right4{
+   position: absolute;
+   left: 35px;
+   margin-top:6px;
+      width: 120px;
+      height: 100px;
+      padding:10px;
+      border: 2px solid rgb(115, 27, 27);
+   background-color: rgb(89, 99, 69);
+ }
+   */
+ .right1 .right5{
+   display: flex;
+   margin-left: 6px;
+  margin-top: 135px;
+   width: 150px;
+      height: 250px;
+      padding:15px;
+      border: 2px solid rgb(214, 17, 214);
+   background-color: rgb(189, 200, 167);
+   overflow: scroll;
+   box-shadow: -4px 6px 4px;
+
+ 
+ }
+ .footer {
+
+   position: relative;
+   width: 100%;
+   height: 140px;
+   float: left;
+   margin-top: 30px;
+   background-color: rgb(109, 163, 28);
+   margin-top:15px;
+   border-radius:30px;
+   box-shadow: -4px 6px 4px;
+}
+
+.footerinside {
+
+   position:relative;
+   width: 70%;
+   height: 60px;
+   float: left;
+   margin-left: 15%;
+   margin-right: 15%;
+   margin-top:30px;
+   border-radius: 25px;
+   padding-left: 5px;
+   padding-top: 10px;
+   font-weight:bolder;
+   background-color: #e0f2f6;
+   text-align:right ;
+   box-shadow: -4px 6px 4px;
+}
+
+.nav{
+position: absolute;
+width:12%;
+height: 30px;
+float: left;
+margin-top:35px;
+padding-left:2px;
+margin-left:54em;
+border:3px solid rgb(11, 255, 23) ;
+border-bottom: dashed;
+background-color: rgb(177, 199, 206);
+border-radius:30px;
+text-align: center;
+font-size:20px;
+box-shadow: -4px 6px 4px;
+
+}
+        
+.nav ul{
+    display:none;
+  
+    
+}
+.nav:hover ul{
+    display:inline;
+    font-size:20px;
+    margin-top:8px;
+    padding:3px;
+    
+    }
+.nav ul li{
+border-top:1px solid rgb(37, 14, 14);
+border-radius:5px;
+background-color:#e2840068;
+    width:125px; 
+   }
+
+     .nav ul li:hover{
+     background-color:#fbff0e;
+     }
+/*
+   }         
+   .Aliwaleed nav ul{
+       display:none;
+       list-style:none;
+       margin:0;
+       padding:0;
+       
+   }
+   .Aliwaleed nav:hover ul{
+       display:block;
+       font-size:16px;
+       margin:0;
+       padding:0;
+       
+       }
+   .Aliwaleed nav ul li{
+   border-top:1px solid #933;
+   border-radius:5px;
+   background-color:#ffc87f68;
+       width:60px; }
+        .Aliwaleed nav ul li:hover{
+        background-color:#b3a22d8d;
+        }
+/*
+.img1{
+position: relative;
+left:5px;
+top:0px;
+width:100px;
+height:200px;
+z-index:1; 
+}
+.img2{
+position:relative;
+left:0px;
+top:0px;
+width:0px;
+height:0px;
+z-index:1;    
+}
+.img3{
+position: absolute;
+background-position:bottom right 22px;
+left:0px;
+top:0px;
+width:0px;
+height:0px;
+z-index:5;    
+}
+.h1{
+    position:absolute ;
+    left:5px;
+    top:2px;
+    height: 11px;
+    z-index:1;
+  
+}*/
+/*.header1{
+   position: relative;
+margin-left: 10px;
+margin-top:3px;
+   width: 15%;
+   height: 30px;
+   padding: 2px;
+border: 1px solid red ;
+background-color: yellowgreen;
+text-emphasis: inherit;
+ }
+.header2{
+position: relative;
+    margin-left: 100px;
+    margin-top:3px;
+       width: 15%;
+       height: 30px;
+       padding: 2px;
+    border: 1px solid red ;
+    background-color: yellowgreen;
+     }
+     .header3{
+      position: relative;
+        margin-left: 20px;
+        margin-top:3px;
+           width: 15%;
+           height: 30px;
+           padding: 2px;
+        border: 1px solid red ;
+        background-color: yellowgreen;
+         }
+         .header4{
+            position: relative;
+            margin-left: 20px;
+            margin-top:3px;
+               width: 15%;
+               height: 30px;
+               padding: 2px;
+            border: 1px solid red ;
+            background-color: yellowgreen;
+            
+             }*/
